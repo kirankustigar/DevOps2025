@@ -1,8 +1,10 @@
-from flask import flask
+from flask import Flask
+  # Capital F
 
-app = flask(__name__)
+app = Flask(__name__)
+    # Capital F here too
 @app.route('/')
-def hello_world();
+def hello_world():
     return 'Hello World!'
 
 if __name__ == '__main__':
